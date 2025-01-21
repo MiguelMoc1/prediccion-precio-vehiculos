@@ -53,9 +53,8 @@ Desarrollar un modelo que cumpla con las siguientes métricas:
 | XGBoost            | 1454.30              | 2040.23       | 18.39 segundos          |
 
 ## 📂 Estructura del Repositorio
-- `data/`: Datos utilizados en el proyecto.
 - `notebooks/`: Jupyter Notebooks con el análisis y el entrenamiento de los modelos.
-- `scripts/`: Scripts de preprocesamiento y evaluación de modelos.
+- `visualizations/`: Gráficas clave para analizar los datos y su estructura.
 - `README.md`: Descripción del proyecto (este archivo).
 
 ## 🤝 Contribuciones
