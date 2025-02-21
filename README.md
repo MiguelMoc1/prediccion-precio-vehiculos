@@ -32,8 +32,8 @@ Desarrollar un modelo que cumpla con las siguientes métricas:
 
 ## 🚀 Resultados Destacados
 - **Mejor Modelo:** LightGBM
-  - **RMSE en Prueba:** 1986.73
-  - **Tiempo de Entrenamiento:** 0.78 segundos
+  - **RMSE en Prueba:** 40.56
+  - **Tiempo de Entrenamiento:** 2.60 segundos
   - **Conclusión:** Mejor desempeño en términos de precisión y velocidad, ideal para implementaciones en producción.
 
 ## 🛠️ Tecnologías y Herramientas
@@ -46,11 +46,11 @@ Desarrollar un modelo que cumpla con las siguientes métricas:
 ## 📈 Métricas Clave
 | Modelo            | RMSE (Entrenamiento) | RMSE (Prueba) | Tiempo de Entrenamiento |
 |--------------------|-----------------------|---------------|--------------------------|
-| Regresión Lineal   | 3192.27              | 72428814599.14| 0.36 segundos           |
-| Random Forest      | 1034.33              | 2059.06       | 7.56 segundos           |
-| LightGBM           | 1530.32              | **1986.73**   | **0.78 segundos**       |
-| CatBoost           | 1968.57              | 2034.89       | 35.7 segundos           |
-| XGBoost            | 1454.30              | 2040.23       | 18.39 segundos          |
+| Regresión Lineal   | 53.46                 | 53.45         | 1.78 segundos            |
+| Random Forest      | 32.27                 | 41.03         | 390.85 segundos          |
+| LightGBM           | 37.95                 | **40.56**     | **2.60 segundos**        |
+| CatBoost           | 1645.05               | 1700.44       | N/A                      |
+| XGBoost            | 40.18                 | 41.36         | 1.45 segundos            |
 
 ## 📂 Estructura del Repositorio
 - `notebooks/`: Jupyter Notebooks con el análisis y el entrenamiento de los modelos.
